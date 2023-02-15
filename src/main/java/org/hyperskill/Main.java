@@ -1,3 +1,6 @@
+/**
+ * Теперь создадим Main класс для работы с утилитным методом парсинга и создания json:
+ */
 package org.hyperskill;
 
 import java.net.URL;
@@ -12,8 +15,9 @@ public class Main {
      * также Вам понадобится свой API ключ
      */
     public static final String WEATHER_URL =
-            "http://api.openweathermap.org/data/2.5/weather?q=London,uk" +
-                    "&units=metric&appid=241de9349721df959d8800c12ca4f1f3";
+            "https://yandex.ru/pogoda/moscow?lat=55.755863&lon=37.6177";
+//            "http://api.openweathermap.org/data/2.5/weather?q=London,uk" +
+//                    "&units=metric&appid=241de9349721df959d8800c12ca4f1f3";
 
     public static void main(String[] args) {
         // создаем URL из строки
